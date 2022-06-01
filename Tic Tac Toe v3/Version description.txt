@@ -1,0 +1,3 @@
+Tic Tac Toe V3
+
+cleaned main: created functions for everything	

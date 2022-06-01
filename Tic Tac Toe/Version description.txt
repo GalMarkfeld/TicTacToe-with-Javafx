@@ -1,0 +1,7 @@
+Tic Tac Toe V1
+
+You can only play vs the computer and start yourself
+
+In this version the computer only tries blocking the user and places randomaly otherwise
+
+You can only enter X or O		

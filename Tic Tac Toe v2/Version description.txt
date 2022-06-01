@@ -1,0 +1,15 @@
+Tic Tac Toe V2
+
+You can still only play vs the computer
+
+In this version the computer tries to win and not just block and place randomaly
+
+Bug fixed: if a user entered an non number char when asked to enter a position to place a piece, an Input MissMatch exeption was thrown
+Solution: using chars and ascii instead of numbers
+*tried using try and catch but ascii was easier 
+
+Added demo and made instructions clearer and in a seperated method
+
+Created user and computer players in main instead of making them global and initialize on calling init()
+		
+Every char that is similar to x or o will be exepted	

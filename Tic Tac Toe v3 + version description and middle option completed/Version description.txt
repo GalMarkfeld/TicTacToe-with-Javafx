@@ -1,0 +1,9 @@
+Tic Tac Toe V3
+
+cleaned main: created functions for everything	
+
+You can only still play vs the computer
+
+Added the option to go second
+
+Added a strategy for computer if you go second
