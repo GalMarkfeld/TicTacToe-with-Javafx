@@ -12,4 +12,4 @@ Added demo and made instructions clearer and in a seperated method
 
 Created user and computer players in main instead of making them global and initialize on calling init()
 		
-Every char that is similar to x or o will be exepted	
+Every char that is similar to x or o will get accepted	
