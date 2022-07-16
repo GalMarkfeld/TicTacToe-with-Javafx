@@ -39,6 +39,6 @@ public class Player {
     }
 
     public void resetPos(){
-        this.positions = new LinkedList<>();
+        this.positions.clear();
     }
 }
