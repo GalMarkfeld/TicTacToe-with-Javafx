@@ -222,7 +222,7 @@ public class HelloApplication extends Application {
         //create buttons
         Button player1 = createButton(PLAYER_1.getName());
         Button player2 = createButton(PLAYER_2.getName());
-        //create events: if player 1 gets clicked change iterator to player 1 and the same for player 2. Then move to the nest scene
+        //create events: if player 1 gets clicked change iterator to player 1 and the same for player 2. Then move to the next scene
         player1.setOnMouseClicked(mouseEvent -> {
             ITERATOR = PLAYER_1;
             stage.setScene(createGameBoardScene(stage));
@@ -237,7 +237,7 @@ public class HelloApplication extends Application {
     }
 
 
-    //Scene 6 - creates the game board from a pane and calculated coordinates and the events for when the triangles will get clicked.
+    //Scene 6 - creates the game board from a pane and calculated coordinates and the events for when the rectangles will get clicked.
     //For the game board: We will use a black rectangle and place 9 smaller rectangles in the app color
     //on top of it in order to create the black lines between them. We are using this and not something simpler in order to avoid double borders
     public Scene createGameBoardScene(Stage stage) {
@@ -525,7 +525,7 @@ public class HelloApplication extends Application {
     //creates a black  x on top of the input rectangle
     private Circle createO(Rectangle rectangle) {
 
-        //create a circle with a clacked coordinates based on the input rectangle and a set radius
+        //create a circle with a calculated coordinates based on the input rectangle and a set radius
         Circle circle = new Circle(rectangle.getX() + 45, rectangle.getY() + 45, 40);
 
         //set the circle's color to app color
